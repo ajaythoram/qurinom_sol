@@ -21,7 +21,7 @@ const cardSchema = new Schema({
             type:String,
             require:true,
           },
-          isDeleted:{
+         isCompleted:{
             type:Boolean,
             require:false,
           },
