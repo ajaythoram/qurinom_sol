@@ -27,7 +27,7 @@ const Card = require("../modeles/cards");
         username:req.locals.username,
         userId:req.locals.userId,
         creationTime:new Date(),
-      isCreated:false,
+      isCompleted:false,
      });
 
       try{
