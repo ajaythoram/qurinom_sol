@@ -23,7 +23,7 @@ const cardSchema = new Schema({
           },
          isCompleted:{
             type:Boolean,
-            require:false,
+            default:false,
           },
           creationTime:{
                  type:Date,
